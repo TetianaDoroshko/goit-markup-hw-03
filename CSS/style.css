@@ -190,6 +190,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
+  margin-bottom: 10px;
 }
 
 /* Чем мы занимаемся */
@@ -268,10 +269,13 @@ img {
 .tel-link:focus {
   color: var(--accent-color);
 }
-
+.address .contacts:not(:last-child) {
+  margin-bottom: 9px;
+}
 .footer .logo span {
   color: var(--bgd-light);
 }
+
 /* Portfolio */
 
 .portfolio-button {
@@ -332,6 +336,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  margin-bottom: 4px;
 }
 .portf-text {
   font-size: 16px;
